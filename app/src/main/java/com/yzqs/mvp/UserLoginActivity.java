@@ -96,6 +96,7 @@ public class UserLoginActivity extends AppCompatActivity implements IUserLoginVi
     @Override
     public void onClick(View v) {
         if (v.equals(mBtnLogin)) {
+
             mUserLoginPresenter.login();
         } else if (v.equals(mBtnClear)) {
             mUserLoginPresenter.clean();
